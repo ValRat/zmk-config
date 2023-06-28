@@ -41,12 +41,12 @@
 // | F1   | F2  |  F3 | F4  |  F5 | F6  |   | F7  | F8  | F9  | F10 | F1  | F12 |
 // |  `   |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  ~  |
 // | SHFT |     |     |     |     |     |   |     |  _  |  +  |  {  |  }  | "|" |
-//                    | GUI |     | SPC |   | BSPC|     | ALT |
+//                    | GUI |     | SPC |   | DEL |     | ALT |
             bindings = <
 &kp F1    &kp F2   &kp F3 &kp F4   &kp F5   &kp F6      &kp F7    &kp F8    &kp F9          &kp F10  &kp F11  &kp F12
 &kp GRAVE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp TILDE
 &kp LSHFT &trans   &trans &trans   &trans   &trans      &trans    &kp UNDER &kp PLUS        &kp LBRC &kp RBRC &kp PIPE
-                          &kp LGUI &trans   &kp SPACE   &kp BSPC  &trans    &kp RALT
+                          &kp LGUI &trans   &kp SPACE   &kp DEL   &trans    &kp RALT
             >;
         };
 
